@@ -1,7 +1,7 @@
-def using_include(array, "wow", "Tardis")
+def using_include(array, element1, element2)
 array = ["wow", "I", "am", "really", "learning", "arrays!"]
-array.include?("wow")
-array.include?("Tardis")
+element1 = array.include?("wow")
+element2 = array.include?("Tardis")
 end
 
 def using_sort(array)
@@ -15,13 +15,16 @@ array.reverse
 end
 
 def using_first(array)
-
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+array.first
 end
 
 def using_last(array)
-
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+array.last
 end
 
 def using_size(array)
-
+array = ["wow", "I", "am", "really", "learning", "arrays!"]
+array.size
 end
